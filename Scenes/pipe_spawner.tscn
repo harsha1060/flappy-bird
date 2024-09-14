@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgvi3ujknv2ch"]
+
+[ext_resource type="Script" path="res://Scripts/pipe_spawner.gd" id="1_0uw3c"]
+
+[node name="pipe_spawner" type="Node"]
+script = ExtResource("1_0uw3c")
+
+[node name="spawn_timer" type="Timer" parent="."]
+wait_time = 2.0
